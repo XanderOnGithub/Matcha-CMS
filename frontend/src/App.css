@@ -1,1 +1,42 @@
 @import "tailwindcss";
+
+/* Core Typography Reset */
+body {
+  font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.6; /* Optimal readability for paragraphs */
+  color: #333;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Headers: Scaled for Hierarchy */
+h1, h2, h3, h4 {
+  color: #1a1a1a;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+h1 { font-size: 2.5rem; }   /* Main Title */
+h2 { font-size: 2rem; }     /* Major Section */
+h3 { font-size: 1.5rem; }   /* Sub-section */
+h4 { font-size: 1.2rem; }   /* Minor Heading */
+
+/* Paragraphs and Spacing */
+p {
+  font-size: 1rem;          /* Standard 16px base */
+  margin-bottom: 1.25em;    /* Breathing room between paragraphs */
+  letter-spacing: 0.01em;
+}
+
+/* Accents */
+strong {
+  color: #000;
+}
+
+small {
+  font-size: 0.8rem;
+  color: #666;
+}
