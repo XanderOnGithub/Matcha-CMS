@@ -10,7 +10,7 @@ const queryClient = new QueryClient()
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <QueryClientProvider client={queryClient}>
-      <BrowserRouter> {/* Add this wrapper */}
+      <BrowserRouter>
         <App />
       </BrowserRouter>
     </QueryClientProvider>
