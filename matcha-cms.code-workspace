@@ -1,0 +1,20 @@
+{
+  "folders": [
+    {
+      "path": "backend",
+      "name": "Backend (Go)"
+    },
+    {
+      "path": "frontend",
+      "name": "Frontend (React)"
+    },
+    {
+      "path": "content",
+      "name": "Content (MDX, TOML, Images)"
+    }
+  ],
+  "settings": {
+    "go.goroot": "",
+    "go.gopath": ""
+  }
+}
