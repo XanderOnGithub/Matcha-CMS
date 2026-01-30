@@ -23,6 +23,7 @@ export interface AlertProps {
 }
 
 export interface HeroProps {
+  brand?: string
   title: string
   subtitle: string
 }

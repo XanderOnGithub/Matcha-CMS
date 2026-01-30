@@ -1,5 +1,14 @@
 @import "tailwindcss";
 
+@theme {
+    --color-matcha-dark: #44624a;
+    --color-matcha-medium: #8ba888;
+    --color-matcha-light: #c0cfb2;
+
+    --color-neutral: #f1ebe1;
+}
+
+
 h1 {
     @apply text-4xl font-bold mb-4;
 }

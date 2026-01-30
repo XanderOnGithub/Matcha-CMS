@@ -17,11 +17,23 @@ export function Alert({ type = 'info', children }: AlertProps) {
   return <div className={colors[type]}>{children}</div>
 }
 
-export function Hero({ title, subtitle }: HeroProps) {
+export function Hero({ brand, title, subtitle }: HeroProps) {
   return (
-    <div className="bg-linear-to-r from-blue-600 to-purple-600 p-20 text-white">
-      <h1>{title}</h1>
-      <p>{subtitle}</p>
+    <div className="flex flex-row gap-4 justify-center  text-black">
+
+      {/* Image */}
+      <div className="w-fit">
+        <div className="w-64 bg-[#8ba888] aspect-square rounded-full flex m-2">
+          <img src="/logo.png" alt="Hero Image" className="w-52 mx-auto my-auto object-cover" />
+        </div>
+      </div>
+      
+      <div className="flex flex-col gap-2 max-w-3xl">
+        <h4>{brand}</h4>
+        <h1>{title}</h1>
+        <p>{subtitle}</p>
+      </div>
+
     </div>
   )
 }

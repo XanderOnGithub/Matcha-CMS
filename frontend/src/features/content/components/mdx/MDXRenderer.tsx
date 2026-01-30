@@ -31,5 +31,5 @@ export function MDXRenderer({ content }: MDXRendererProps) {
   if (!MDXContent) return <div>Loading...</div>
 
   // Pass components as a prop to the MDXContent function
-  return <MDXContent className="mdx-content" components={mdxComponents} />
+  return <MDXContent components={mdxComponents} />
 }
